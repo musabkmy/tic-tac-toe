@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta title="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="overlay">
+      <div class="overlay-content">
+        <h3>Ready to Battle?</h3>
+        <form id="overlay-form">
+          <div id="overlay-step"></div>
+          <button id="overlay-button-action" state="init" type="button">
+            Next
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <main>
+      <h2 id="game-status"></h2>
+      <!-- <div id="start-game-content"></div> -->
+      <div id="game-content">
+        <div id="board-content">
+          <div id="board-container">
+            <button id="cell-0" class="board-cell"></button>
+            <button id="cell-1" class="board-cell"></button>
+            <button id="cell-2" class="board-cell"></button>
+            <button id="cell-3" class="board-cell"></button>
+            <button id="cell-4" class="board-cell"></button>
+            <button id="cell-5" class="board-cell"></button>
+            <button id="cell-6" class="board-cell"></button>
+            <button id="cell-7" class="board-cell"></button>
+            <button id="cell-8" class="board-cell"></button>
+          </div>
+        </div>
+        <div>
+          <button id="reset-game">Reset Game</button>
+        </div>
+      </div>
+    </main>
+
+    <script src="js.js" defer></script>
+  </body>
+</html>
